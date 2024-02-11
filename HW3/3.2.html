@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        #red{
+            height: 100vh;
+            background-color: #FF8577;
+        }
+        #blue{
+            height: 100vh;
+            background-color: blue;
+        }
+        #green{
+            height: 100vh;
+            background-color: green;
+        }
+        .spaceforarrowup{
+            font-size: 30px;
+            height: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .spaceforarrowdown{
+            font-size:30px ;
+            height: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .spacefortitle{
+            height: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .spaceforinfo{
+            font-size:20px ;
+            height: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<div id="red">
+    <div class="spacefortitle"><h1>Section Title</h1></div>
+    <div class="spaceforinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid, doloribus esse, illo in, ipsum itaque magnam nisi non odio odit porro possimus soluta temporibus?</div>
+    <div class="spaceforarrowdown"><a style="color:black" href="#blue">&#129047;</a></div>
+</div>
+<div id="blue">
+    <div class="spaceforarrowup"><a style="color:black" href="#red">&#129045;</a></div>
+    <div class="spacefortitle"><h1>Section Title</h1></div>
+    <div class="spaceforinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur explicabo fuga iusto laborum minus placeat, rem voluptate voluptatem voluptates!</div>
+    <div class="spaceforarrowdown"><a style="color:black" href="#green">&#129047;</a></div>
+</div>
+
+<div id="green">
+    <div class="spaceforarrowup"><a style="color:black" href="#blue">&#129045;</a></div>
+    <div class="spacefortitle"><h1>Section Title</h1></div>
+    <div class="spaceforinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias, delectus est explicabo libero minus molestias odio temporibus. Architecto, autem!</div>
+</div>
+</body>
+</html>
